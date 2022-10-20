@@ -7,7 +7,18 @@ This is a *not official* CMake template, intended to quickly setup your lab proj
 It is intended to be used with CLion, but if you feel brave you can use it without a GUI.
 
 ## How to download
-#todo
+### With git
+<ol>
+<li>[install git](https://git-scm.com/downloads). Then on a terminal
+<li> copy ssh link 
+<li> `git clone <this repository link>`
+</ol>
+
+### Copy zip
+<ol>
+<li> download zip
+</ol>
+
 
 ## How to setup
 #todo
