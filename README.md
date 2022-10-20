@@ -8,11 +8,10 @@ It is intended to be used with CLion, but if you feel brave you can use it witho
 
 ## How to download
 ### With git
-<ol>
-<li>[install git](https://git-scm.com/downloads). Then on a terminal
-<li> copy ssh link 
-<li> `git clone <this repository link>`
-</ol>
+
+- [install git](https://git-scm.com/downloads). Then on a terminal
+- copy ssh link 
+- `git clone <this repository link>`
 
 ### Copy zip
 <ol>
