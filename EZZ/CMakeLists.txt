@@ -3,8 +3,17 @@
 #example: for Exercise 1:  project(E01)
 project(EZZ)
 
+#Add source files and headers if needed
+#example: add_executable(${PROJECT_NAME} main.c some_header.h another_header.h ../some/folder/header.h)
 add_executable(${PROJECT_NAME} main.c)
-set(FILES)
+
+#Add file names if needed. This enables you to include a file with a relative path and being able to open/include it inside your main.c
+#Notice: It is better to add your file in the same folder as your main.c !
+#Warning: if you want to set files with absolute path, do not add them here!
+#
+#example: set(FILES ./inputFile.txt ./anotherInputFile.txt) <- notice the relative path!
+#example: you will be now able to do something like #define FILE_PATH "./inputfile.txt" and then fopen(FILE_PATH) without errors!
+set(FILES in.txt)
 
 #-------NON-USER STUFF-------#
 #copies the file inside export folder
