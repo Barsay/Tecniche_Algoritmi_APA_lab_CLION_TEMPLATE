@@ -1,10 +1,10 @@
 # Tecniche_Algoritmi_APA_lab_CLION_TEMPLATE
-CMake template for "APA", "Tecniche di Programmazione", "Algoritmi e strutture dati" courses labs, at Politecnico di Torino
-
 Hello! This repository is currently a work in progress. Something could not work as expected
 
 ## What is this
-#todo
+This is a *not official* CMake template, intended to quickly setup your lab projects, in the Politecnico di Torino courses for *APA* (deprecated course), *Tecniche di Programmazione*,  *Algoritmi e Strutture Dati*. <br>
+
+It is intended to be used with CLion, but if you feel brave you can use it without a GUI.
 
 ## How to download
 #todo
