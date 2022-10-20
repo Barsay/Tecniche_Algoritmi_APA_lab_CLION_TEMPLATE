@@ -2,11 +2,12 @@ cmake_minimum_required(VERSION 3.0)
 
 #-------USER VARIABLES-------#
 #Set those variables according to your needs
-#Set ZZ as 01, 02, 03... eg L01, L02....
+#example set(GLOBAL_PROJECT_NAME L01) for lab01
 set(GLOBAL_PROJECT_NAME LZZ)
-#Add or remove your subdirectories (exercises)!
-set(DIRECTORIES E01 E02 E03 E04)
-#----------------------------#
+#Add directory names here!
+#example set(DIRECTORIES E01 E02 E03)
+set(DIRECTORIES EZZ)
+
 
 #-------NON USER SPACE-------#
 #Don't touch here unless you know what you are doing!
