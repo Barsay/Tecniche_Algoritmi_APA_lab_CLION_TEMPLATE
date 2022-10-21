@@ -19,12 +19,12 @@ set(FILES in.txt)
 #copies the file inside export folder
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
-        ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/../${GLOBAL_PROJECT_NAME}_export/${PROJECT_NAME}/)
+        ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/../${LAB_NAME}_export/${PROJECT_NAME}/)
 
 #Removes from exported the CMakeLists.txt
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E remove
-        ${CMAKE_CURRENT_SOURCE_DIR}/../${GLOBAL_PROJECT_NAME}_export/${PROJECT_NAME}/CMakeLists.txt)
+        ${CMAKE_CURRENT_SOURCE_DIR}/../${LAB_NAME}_export/${PROJECT_NAME}/CMakeLists.txt)
 
 foreach(file ${FILES})
     add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
