@@ -8,7 +8,6 @@ set(GLOBAL_PROJECT_NAME LZZ)
 #example set(DIRECTORIES E01 E02 E03)
 set(DIRECTORIES EZZ)
 
-
 #-------NON USER SPACE-------#
 #Don't touch here unless you know what you are doing!
 project(${GLOBAL_PROJECT_NAME})

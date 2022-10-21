@@ -10,3 +10,4 @@ cmake-build-debug*
 compile_commands.json
 CTestTestfile.cmake
 _deps
+.idea

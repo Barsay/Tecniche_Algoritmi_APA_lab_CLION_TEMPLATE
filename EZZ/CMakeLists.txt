@@ -12,7 +12,7 @@ add_executable(${PROJECT_NAME} main.c)
 #Warning: if you want to set files with absolute path, do not add them here!
 #
 #example: set(FILES ./inputFile.txt ./anotherInputFile.txt) <- notice the relative path!
-#example: you will be now able to do something like #define FILE_PATH "./inputfile.txt" and then fopen(FILE_PATH) without errors!
+#example: you will be now able to do something like #define FILE_PATH "./inputfile.txt" and then fopen(FILE_PATH, ...) without errors!
 set(FILES in.txt)
 
 #-------NON-USER STUFF-------#
