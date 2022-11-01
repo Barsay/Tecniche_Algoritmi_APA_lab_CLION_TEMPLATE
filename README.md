@@ -5,7 +5,7 @@ This repository contains a CMake template, intended to quickly setup your lab pr
 
 It is intended to be used with CLion, but if you feel brave you can use it without a GUI.
 
-### Features
+## Features - What does this template do
 - Quick setup
 - Build/Run all the lab's exercises configurations inside your IDE
     <p align="center">
@@ -72,3 +72,9 @@ With this template CMake copies the files inside the build folder: this enables 
 To do so, you need to add the **relative path** (starting from the main.c location!) of the file to the exercises CMakeLists.txt.
 
 It is *recommended* to add your files (also *.c and *h) into the same folder as your main.c !
+
+### Problems? Bugs found?
+Submit a [new issue](https://github.com/Barsay/Tecniche_Algoritmi_APA_lab_CLION_TEMPLATE/issues/new)
+
+### Wanna contribute?
+Submit a pull [request](https://github.com/Barsay/Tecniche_Algoritmi_APA_lab_CLION_TEMPLATE/compare)
