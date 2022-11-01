@@ -3,7 +3,7 @@
 ## What is this
 This repository contains a CMake template, intended to quickly setup your lab projects, for the Politecnico di Torino courses  *APA* (deprecated), *Tecniche di Programmazione*,  *Algoritmi e Strutture Dati*. <br>
 
-It is intended to be used with CLion, but if you feel brave you can use it without a GUI.
+It is intended to be used with CLion, but if you feel brave you can use it without a GUI, or with VSCode
 
 ## Features - What does this template do
 - Quick setup
